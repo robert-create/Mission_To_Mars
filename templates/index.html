@@ -39,14 +39,15 @@
 </div>
 
 <!-- weather -->
-<div class="row col-md-4">
-    <div class="border border-primary">
-        <h1 class="heading"><strong>Current Weather on Mars</strong></h4>
+<div class="col-md-4">
+    <div class="panel-body">
+        <h4>Current Weather on Mars</h4>
+        <hr size=2>
         <p>{{mars.mars_weather}}</p>
     </div>
-
-    <div class="row col-md-4">
-            <h1 class="header"><strong>Mars Facts</strong></h1>
+    <div class="col-md-12">
+            <h4>Mars Facts</h4>
+            <hr size=2>
             <table border="1" class="dataframe">
                 {{mars.fact_table|safe}}
             </table>  

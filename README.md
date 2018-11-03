@@ -33,7 +33,7 @@ Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Req
 
 ## Part 2 - MongoDB and Flask Application
 
-Uses MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
+Used MongoDB with Flask templating to create an HTML page that displays all of the information that was scraped from the URLs above.
 
 ![final_app_part1.png](Images/final_app_part1.png)
 ![final_app_part2.png](Images/final_app_part2.png)
@@ -46,7 +46,7 @@ Uses MongoDB with Flask templating to create a new HTML page that displays all o
 
 * Used Pymongo for CRUD applications for the database. 
 
-* Use Bootstrap to structure the HTML template.
+* Used Bootstrap to structure the HTML template.
 
 ## Author
 
